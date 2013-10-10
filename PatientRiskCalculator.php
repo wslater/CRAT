@@ -65,7 +65,7 @@ class PatientRiskCalculator {
 	//Calculates the risk of a patient based on diabetes risk and $this->addRisk(s a Risk object
 	public function diabetesRisk() {
 		$diabetesRisk = new Risk;
-        $hasDiabetes = $this->patient->getHadDiabetes();
+        $hasDiabetes = $this->patient->getHasDiabetes();
 		
 		if($this->gender == "Male") {	
 			if($hasDiabetes == "True"){
@@ -354,8 +354,8 @@ class PatientRiskCalculator {
 	//Calculates the risk of a patient based on their blood pressure values and $this->addRisk(s a Risk object
 	public function bpRisk() {
 
-		$systolicRisk = $this->patient->getSystolicRisk();
-		$diastolicRisk = getDiastolicRisk($patient);
+		$systolicRisk = $this->getSystolicRisk();
+		$diastolicRisk = $this->getDiastolicRisk($this->patient);
 		$bpRisk = new Risk();
 		
 		if($systolicRisk == $diastolicRisk) {

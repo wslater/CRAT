@@ -1,5 +1,6 @@
 <?php
 require_once ('CRATFormView.php');
+require_once ('CRATRiskView.php');
 require_once ('Patient.php');
 require_once ('PatientRiskCalculator.php');
 require_once ("CRATValidator.php");

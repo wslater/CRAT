@@ -870,3 +870,617 @@
 [Sun Sep 08 08:37:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
 [Sun Sep 08 08:37:04 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->__construct() /var/www/crat/CRATController.php:21
 [Sun Sep 08 08:37:04 2013] [error] [client 172.16.242.1] PHP   4. Patient->__construct() /var/www/crat/CRATFormView.php:11
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: name in /var/www/crat/crat_form_tpl.php on line 6
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: age in /var/www/crat/crat_form_tpl.php on line 7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: ldlc in /var/www/crat/crat_form_tpl.php on line 9
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: hdlc in /var/www/crat/crat_form_tpl.php on line 10
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: totalchol in /var/www/crat/crat_form_tpl.php on line 11
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: systolic in /var/www/crat/crat_form_tpl.php on line 12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diastolic in /var/www/crat/crat_form_tpl.php on line 13
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/crat_form_tpl.php on line 14
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/crat_form_tpl.php on line 15
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/crat_form_tpl.php on line 16
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Fri Oct 04 10:00:31 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Fri Oct 04 10:00:34 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 09:38:14 2013] [error] [client 172.16.242.1] File does not exist: /var/www/crat/favicon.ico
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: name in /var/www/crat/crat_form_tpl.php on line 6
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: age in /var/www/crat/crat_form_tpl.php on line 7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: ldlc in /var/www/crat/crat_form_tpl.php on line 9
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: hdlc in /var/www/crat/crat_form_tpl.php on line 10
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: totalchol in /var/www/crat/crat_form_tpl.php on line 11
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: systolic in /var/www/crat/crat_form_tpl.php on line 12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diastolic in /var/www/crat/crat_form_tpl.php on line 13
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/crat_form_tpl.php on line 14
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/crat_form_tpl.php on line 15
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/crat_form_tpl.php on line 16
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 10:23:14 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 10:23:16 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: name in /var/www/crat/crat_form_tpl.php on line 6
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: age in /var/www/crat/crat_form_tpl.php on line 7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: ldlc in /var/www/crat/crat_form_tpl.php on line 9
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: hdlc in /var/www/crat/crat_form_tpl.php on line 10
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: totalchol in /var/www/crat/crat_form_tpl.php on line 11
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: systolic in /var/www/crat/crat_form_tpl.php on line 12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diastolic in /var/www/crat/crat_form_tpl.php on line 13
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/crat_form_tpl.php on line 14
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/crat_form_tpl.php on line 15
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/crat_form_tpl.php on line 16
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 11:02:23 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: name in /var/www/crat/crat_form_tpl.php on line 6
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: age in /var/www/crat/crat_form_tpl.php on line 7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: ldlc in /var/www/crat/crat_form_tpl.php on line 9
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: hdlc in /var/www/crat/crat_form_tpl.php on line 10
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: totalchol in /var/www/crat/crat_form_tpl.php on line 11
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: systolic in /var/www/crat/crat_form_tpl.php on line 12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diastolic in /var/www/crat/crat_form_tpl.php on line 13
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/crat_form_tpl.php on line 14
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/crat_form_tpl.php on line 15
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/crat_form_tpl.php on line 16
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 18:26:20 2013] [error] [client 172.16.242.1] File does not exist: /var/www/crat/favicon.ico
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: name in /var/www/crat/crat_form_tpl.php on line 6, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: age in /var/www/crat/crat_form_tpl.php on line 7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: ldlc in /var/www/crat/crat_form_tpl.php on line 9, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: hdlc in /var/www/crat/crat_form_tpl.php on line 10, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: totalchol in /var/www/crat/crat_form_tpl.php on line 11, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: systolic in /var/www/crat/crat_form_tpl.php on line 12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diastolic in /var/www/crat/crat_form_tpl.php on line 13, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/crat_form_tpl.php on line 14, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/crat_form_tpl.php on line 15, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/crat_form_tpl.php on line 16, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest() /var/www/crat/CRAT.php:7, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:57, referer: http://crat.com/
+[Wed Oct 09 18:42:17 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12, referer: http://crat.com/
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:53:04 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:54:43 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:28 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:28 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:28 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:28 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:29 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:30 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:30 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:30 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:55:30 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:58:32 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:58:32 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:58:32 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:58:32 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:58:32 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 18:58:32 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:01:39 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:02:25 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:50 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:55 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getSystolicRisk() in /var/www/crat/PatientRiskCalculator.php on line 357, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:55 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:55 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:55 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:55 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:10:55 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->bpRisk() /var/www/crat/PatientRiskCalculator.php:21, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:14:52 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:15:04 2013] [error] [client 172.16.242.1] PHP Fatal error:  Call to undefined method Patient::getHadDiabetes() in /var/www/crat/PatientRiskCalculator.php on line 68, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:15:04 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:15:04 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:15:04 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:15:04 2013] [error] [client 172.16.242.1] PHP   3. PatientRiskCalculator->calculateRisk() /var/www/crat/CRATController.php:42, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:15:04 2013] [error] [client 172.16.242.1] PHP   4. PatientRiskCalculator->diabetesRisk() /var/www/crat/PatientRiskCalculator.php:22, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 23, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 29, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Fatal error:  Class 'CRATRiskView' not found in /var/www/crat/CRATController.php on line 44, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:01 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP Warning:  require_once(CRATRiskView.php ): failed to open stream: No such file or directory in /var/www/crat/CRATController.php on line 3, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP   2. require_once() /var/www/crat/CRAT.php:2, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP Fatal error:  require_once(): Failed opening required 'CRATRiskView.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/crat/CRATController.php on line 3, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:16:45 2013] [error] [client 172.16.242.1] PHP   2. require_once() /var/www/crat/CRAT.php:2, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 24, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 32, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:18:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: gender in /var/www/crat/CRATController.php on line 24, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/CRATController.php on line 30, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/CRATController.php on line 31, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/CRATController.php on line 32, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP Stack trace:, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:36 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7, referer: http://crat.com/CRAT.php
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: name in /var/www/crat/crat_form_tpl.php on line 6
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: age in /var/www/crat/crat_form_tpl.php on line 7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: ldlc in /var/www/crat/crat_form_tpl.php on line 9
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: hdlc in /var/www/crat/crat_form_tpl.php on line 10
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: totalchol in /var/www/crat/crat_form_tpl.php on line 11
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: systolic in /var/www/crat/crat_form_tpl.php on line 12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diastolic in /var/www/crat/crat_form_tpl.php on line 13
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: smoker in /var/www/crat/crat_form_tpl.php on line 14
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: meds in /var/www/crat/crat_form_tpl.php on line 15
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Notice:  Undefined index: diabetes in /var/www/crat/crat_form_tpl.php on line 16
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP Stack trace:
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   1. {main}() /var/www/crat/CRAT.php:0
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   2. CRATController->handleRequest($postData = *uninitialized*) /var/www/crat/CRAT.php:7
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   3. CRATFormView->render() /var/www/crat/CRATController.php:58
+[Wed Oct 09 19:20:48 2013] [error] [client 172.16.242.1] PHP   4. include() /var/www/crat/CRATFormView.php:12
