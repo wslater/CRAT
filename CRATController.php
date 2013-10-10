@@ -15,6 +15,8 @@ class CRATController {
         $view = new CRATFormView();
         $view->setPostData($postData);
 
+
+
         if (is_array($postData) && count($postData) > 0) {
             
             $patient = new Patient();
@@ -35,7 +37,7 @@ class CRATController {
 
             $view->setErrors($formErrors);
 
-            if(count($formErrors) == 0) {
+            if(count($formErrors) == 0 || in_array("", $formErrors, True)) {
 
                 $patientRiskCalculator = new PatientRiskCalculator();
                 $patientRiskCalculator->setPatient($patient);
@@ -48,14 +50,14 @@ class CRATController {
                 $view->setRisk($risk);
                 $view->setPatient($patient);
 
-                print($view->render());
+
             }
         }
 
 
 
+        print($view->render());
 
-		print($view->render());
 
 	}
 }

@@ -13,6 +13,7 @@ require_once ('Patient.php');
 
             $this->validateName();
             $this->validateAge();
+            $this->validateGender();
             $this->validateChol();
             $this->validateHDL();
             $this->validateLDL();
@@ -28,61 +29,74 @@ require_once ('Patient.php');
         if(strlen($this->patient->getName()) >100)
             $nameError = "Name exceeds maximum length allowed";
 
-            $errors["name"] = $nameError;
+        if(strlen($this->patient->getName()) == 0)
+            $nameError = "Please provide a name";
+
+        $this->errors["name"] = $nameError;
     }
 
         private function validateAge() {
         $ageError = "";
 
-        if (!$this->betweenValues(30, 75, $this->patient->getAge()))
+        if (!($this->betweenValues(30, 75, $this->patient->getAge())))
             $ageError = "Age must be between 30 and 75";
 
-        $errors["age"] = $ageError;
+        $this->errors["age"] = $ageError;
     }
 
         private function validateHDL() {
         $hdlError = "";
 
-        if (!$this->betweenValues(0, 500, $this->patient->getHDLCholesterol()))
+        if (!$this->betweenValues(1, 500, $this->patient->getHDLCholesterol()))
             $hdlError = "HDL value must be positive";
 
-            $errors["hdlc"] = $hdlError;
+            $this->errors["hdlc"] = $hdlError;
     }
 
         private function validateLDL() {
         $ldlError = "";
 
-        if(!$this->betweenValues(0, 500, $this->patient->getLDLCholesterol()))
+        if(!$this->betweenValues(1, 500, $this->patient->getLDLCholesterol()))
             $ldlError = "LDL value must be positive";
 
-            $errors["ldlc"] = $ldlError;
+            $this->errors["ldlc"] = $ldlError;
     }
 
         private function validateChol() {
             $totalCholError = "";
 
-            if(!$this->betweenValues(0, 500, $this->patient->getTotalCholesterol()))
+            if(!$this->betweenValues(1, 500, $this->patient->getTotalCholesterol()))
                 $totalCholError = "Total cholesterol value must be positive";
 
-            $errors["totalchol"] = $totalCholError;
+            $this->errors["totalchol"] = $totalCholError;
         }
 
         private function validateSystolic() {
             $systolicError = "";
 
-            if(!$this->betweenValues(0, 300, $this->patient->getSystolicBloodPressure()))
+            if(!$this->betweenValues(1, 300, $this->patient->getSystolicBloodPressure()))
                 $systolicError = "Systolic blood pressure value must be positive";
 
-            $errors["systolic"] = $systolicError;
+            $this->errors["systolic"] = $systolicError;
         }
 
         private function validateDiastolic() {
             $diastolicError = "";
 
-            if(!$this->betweenValues(0, 300, $this->patient->getDiastolicBloodPressure()))
+            if(!$this->betweenValues(1, 300, $this->patient->getDiastolicBloodPressure()))
                 $diastolicError = "Diastolic blood pressure value must be positive";
 
-            $errors["diastolic"] = $diastolicError;
+            $this->errors["diastolic"] = $diastolicError;
+        }
+
+        private function validateGender() {
+            $genderError = "";
+
+            if(strlen($this->patient->getGender()) == 0)
+                $genderError = "Please select a gender";
+
+            $this->errors["gender"] = $genderError;
+
         }
 
         private function betweenValues($min, $max, $value) {
