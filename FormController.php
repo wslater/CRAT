@@ -1,18 +1,18 @@
 <?php
-require_once ('CRATFormView.php');
-require_once ('CRATRiskView.php');
+require_once ('FormView.php');
+require_once ('RiskView.php');
 require_once ('Patient.php');
 require_once ('PatientRiskCalculator.php');
-require_once ("CRATValidator.php");
+require_once ("PatientValidator.php");
 
-class CRATController {
+class FormController {
 
 
 
 	public function handleRequest($postData) {
 
-        $validator = new CRATValidator();
-        $view = new CRATFormView();
+        $validator = new PatientValidator();
+        $view = new FormView();
         $view->setPostData($postData);
 
 
@@ -44,7 +44,7 @@ class CRATController {
 
                 $risk = $patientRiskCalculator->calculateRisk();
                 $warning = $patientRiskCalculator->getWarning();
-                $view = new CRATRiskView();
+                $view = new RiskView();
 
                 $view->setWarning($warning);
                 $view->setRisk($risk);

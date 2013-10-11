@@ -1,7 +1,7 @@
 <?php
 require_once ('Patient.php');
 
-    class CRATValidator {
+    class PatientValidator {
 
 
         private $errors = array();

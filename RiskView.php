@@ -1,7 +1,7 @@
 <?php
 
 
-class CRATRiskView {
+class RiskView {
 
     private $risk;
     private $patient;
@@ -11,7 +11,7 @@ class CRATRiskView {
     public function render() {
         global $view;
         $view = $this;
-        include('crat_risk_tpl.php');
+        include('risk_tpl.php');
     }
 
     public function getRisk()

@@ -1,8 +1,8 @@
 <?php
-require_once('CRATController.php');
+require_once('FormController.php');
 
 global $_REQUEST;
 
-$controller = new CRATController();
+$controller = new FormController();
 $controller->handleRequest($_REQUEST);
 ?>

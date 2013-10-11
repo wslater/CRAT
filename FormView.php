@@ -1,7 +1,7 @@
 <?php
 
 
-class CRATFormView {
+class FormView {
 
     private $errors;
     private $postData;
@@ -9,7 +9,7 @@ class CRATFormView {
     public function render() {
         global $view;
         $view = $this;
-        include('crat_form_tpl.php');
+        include('form_tpl.php');
     }
 
     public function getErrors()
