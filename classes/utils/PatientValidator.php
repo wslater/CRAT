@@ -1,5 +1,5 @@
 <?php
-require_once ('Patient.php');
+require_once (CRAT_MODELS.'Patient.php');
 
     class PatientValidator {
 

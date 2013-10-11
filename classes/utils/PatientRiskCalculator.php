@@ -1,6 +1,6 @@
 <?php
-require_once ('Risk.php');
-require_once ('Patient.php');
+require_once (CRAT_MODELS.'Risk.php');
+require_once (CRAT_MODELS.'Patient.php');
 
 
 class PatientRiskCalculator {

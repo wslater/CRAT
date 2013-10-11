@@ -1,9 +1,9 @@
 <?php
-require_once ('FormView.php');
-require_once ('RiskView.php');
-require_once ('Patient.php');
-require_once ('PatientRiskCalculator.php');
-require_once ("PatientValidator.php");
+require_once (CRAT_VIEWS.'FormView.php');
+require_once (CRAT_VIEWS.'RiskView.php');
+require_once (CRAT_MODELS.'Patient.php');
+require_once (CRAT_UTILS.'PatientRiskCalculator.php');
+require_once (CRAT_UTILS."PatientValidator.php");
 
 class FormController {
 

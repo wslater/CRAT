@@ -1,7 +1,7 @@
 <?php
 
 
-class RiskView {
+class RiskView extends ViewBase {
 
     private $risk;
     private $patient;
@@ -9,9 +9,8 @@ class RiskView {
 
 
     public function render() {
-        global $view;
-        $view = $this;
-        include('risk_tpl.php');
+
+        $this->renderTemplate(CRAT_TEMPLATES.'risk_tpl.php');
     }
 
     public function getRisk()
@@ -41,6 +40,10 @@ class RiskView {
     public function setWarning($warning)
     {
         $this->warning = $warning;
+    }
+
+    public function getWarning() {
+        return $this->warning;
     }
 
 }

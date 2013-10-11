@@ -1,15 +1,13 @@
 <?php
+require_once('ViewBase.php');
 
-
-class FormView {
+class FormView extends ViewBase {
 
     private $errors;
     private $postData;
 
     public function render() {
-        global $view;
-        $view = $this;
-        include('form_tpl.php');
+        $this->renderTemplate(CRAT_TEMPLATES.'form_tpl.php');
     }
 
     public function getErrors()
