@@ -116,4 +116,3 @@ require_once (CRAT_MODELS.'Patient.php');
         }
 
 
-?>

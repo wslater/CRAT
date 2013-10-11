@@ -463,4 +463,3 @@ class PatientRiskCalculator {
         $this->risk->setCholRisk($tempchol + $curchol);
     }
 }
-?>

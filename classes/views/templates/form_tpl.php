@@ -4,7 +4,7 @@ $postData = $view->getPostData();
 $errors = $view->getErrors();
 ?>
 
-<form id="cratForm" name="cratForm" method="post">
+<form method="post" xmlns="http://www.w3.org/1999/html">
     Name: <input name="name" type="text" value="<?=$postData["name"]?>"/> <span class="error"> <?=$errors["name"]?></span><br/>
     Age: <input name="age" type="text" value="<?=$postData["age"]?>"/> <span class="error"> <?=$errors["age"]?></span><br/>
     Gender:  Male <input name="gender" type="radio" value="Male"/>     Female <input name="gender" type="radio" value="Female"/> <span class="error"> <?=$errors["gender"]?></span><br/>
@@ -17,7 +17,7 @@ $errors = $view->getErrors();
     Is the patient on medication? <input name="meds" type="checkbox" value="<?=$postData["meds"]?>"/> <br/>
     Does the patient have diabetes? <input name="diabetes" type="checkbox" value="<?=$postData["diabetes"]?>"/><br/>
 
-    <input type="submit" name="submitCRATForm" value="Calculate Risk" />
+    <input type="submit" class="btn" value="Calculate Risk"/>
 
 
 </form>

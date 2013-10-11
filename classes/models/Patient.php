@@ -101,4 +101,3 @@ class Patient {
 		$this->hasDiabetes = $diabetes;
 	}
 }
-?>
