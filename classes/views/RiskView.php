@@ -10,7 +10,7 @@ class RiskView extends ViewBase {
 
     public function render() {
 
-        $this->renderTemplate(CRAT_TEMPLATES.'risk_tpl.php');
+        $this->renderPage(CRAT_TEMPLATES.'risk_tpl.php');
     }
 
     public function getRisk()

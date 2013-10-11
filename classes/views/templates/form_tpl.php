@@ -4,12 +4,6 @@ $postData = $view->getPostData();
 $errors = $view->getErrors();
 ?>
 
-<style>
-    .error {
-        color:red;
-    }
-</style>
-
 <form id="cratForm" name="cratForm" method="post">
     Name: <input name="name" type="text" value="<?=$postData["name"]?>"/> <span class="error"> <?=$errors["name"]?></span><br/>
     Age: <input name="age" type="text" value="<?=$postData["age"]?>"/> <span class="error"> <?=$errors["age"]?></span><br/>

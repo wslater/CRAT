@@ -7,7 +7,7 @@ class FormView extends ViewBase {
     private $postData;
 
     public function render() {
-        $this->renderTemplate(CRAT_TEMPLATES.'form_tpl.php');
+        $this->renderPage(CRAT_TEMPLATES.'form_tpl.php');
     }
 
     public function getErrors()
