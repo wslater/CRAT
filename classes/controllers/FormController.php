@@ -3,19 +3,15 @@ require_once (CRAT_VIEWS.'FormView.php');
 require_once (CRAT_VIEWS.'RiskView.php');
 require_once (CRAT_MODELS.'Patient.php');
 require_once (CRAT_UTILS.'PatientRiskCalculator.php');
-require_once (CRAT_UTILS."PatientValidator.php");
+require_once (CRAT_UTILS.'PatientValidator.php');
 
 class FormController {
-
-
 
 	public function handleRequest($postData) {
 
         $validator = new PatientValidator();
         $view = new FormView();
         $view->setPostData($postData);
-
-
 
         if (is_array($postData) && count($postData) > 0) {
             
@@ -53,12 +49,7 @@ class FormController {
 
             }
         }
-
-
-
         print($view->render());
-
-
 	}
 }
 

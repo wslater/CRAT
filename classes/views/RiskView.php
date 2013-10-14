@@ -46,5 +46,10 @@ class RiskView extends ViewBase {
         return $this->warning;
     }
 
+    //Overrides ViewBase
+    public function getTitle() {
+        return "Cardiac Risk Assessment Tool - Risk Results";
+    }
+
 }
 

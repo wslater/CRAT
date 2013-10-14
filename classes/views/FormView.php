@@ -30,5 +30,10 @@ class FormView extends ViewBase {
         $this->postData = $postData;
     }
 
+    //Overrides ViewBase
+    public function getTitle() {
+        return "Cardiac Risk Assessment Tool - Form";
+    }
+
 
 }

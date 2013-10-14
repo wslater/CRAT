@@ -3,6 +3,7 @@ require_once (CRAT_MODELS.'Risk.php');
 require_once (CRAT_MODELS.'Patient.php');
 
 
+
 class PatientRiskCalculator {
 
     private $patient;
@@ -10,12 +11,14 @@ class PatientRiskCalculator {
     private $gender;
     private $risk;
 
+
+
     //Calculates all risks for a patient and returns a risk Object
     public function calculateRisk() {
-        
+
         $this->risk = new Risk();
-        $gender = $this->patient->getGender();
-        
+        $this->gender = $this->patient->getGender();
+
         $this->smokerRisk();
         $this->ageRisk();
         $this->bpRisk();
@@ -23,12 +26,147 @@ class PatientRiskCalculator {
         $this->hdlRisk();
         $this->ldlRisk();
         $this->cholRisk();
-        
+
+        $this->calculateCHDPercent();
+        $this->calculateAvgCHDPercent();
+
         return $this->risk;
     }
 
-	//Calculates the risk of a patient based on smoking risk and returns a Risk object
-	public function smokerRisk() {
+    private function calculateCHDPercent() {
+        $maleData = array(
+            "ldl" => array (
+                -3=>1,
+                -2=>2,
+                -1=>2,
+                0=>3,
+                1=>4,
+                2=>4,
+                3=>6,
+                4=>7,
+                5=>9,
+                6=>11,
+                7=>14,
+                8=>18,
+                9=>22,
+                10=>27,
+                11=>33,
+                12=>40,
+                13=>47,
+                14=>56
+            ),
+            "chol" => array (
+                -1=>2,
+                0=>3,
+                1=>4,
+                2=>4,
+                3=>5,
+                4=>7,
+                5=>8,
+                6=>10,
+                7=>13,
+                8=>16,
+                9=>20,
+                10=>25,
+                11=>31,
+                12=>37,
+                13=>45,
+                14=>53
+            )
+        );
+        $femaleData = array(
+            "ldl" => array (
+                -2=>1,
+                -1=>2,
+                0=>2,
+                1=>2,
+                2=>3,
+                3=>3,
+                4=>4,
+                5=>5,
+                6=>6,
+                7=>7,
+                8=>8,
+                9=>9,
+                10=>11,
+                11=>13,
+                12=>15,
+                13=>17,
+                14=>20,
+                15=>24,
+                16=>27,
+                17=>32
+            ),
+            "chol" => array (
+                -2=>1,
+                -1=>2,
+                0=>2,
+                1=>2,
+                2=>3,
+                3=>3,
+                4=>4,
+                5=>4,
+                6=>5,
+                7=>6,
+                8=>7,
+                9=>8,
+                10=>10,
+                11=>11,
+                12=>13,
+                13=>15,
+                14=>18,
+                15=>20,
+                16=>24,
+                17=>27
+            )
+        );
+        $ldlPoints = $this->risk->getLdlRisk();
+        $cholPoints = $this->risk->getCholRisk();
+
+        if($this->gender = "Male") {
+            $cholPercent = 2;
+            $ldlPercent = 1;
+
+            for($i=-3; $i<=14; $i++) {
+                if($ldlPoints >= $i)
+                    $ldlPercent = $maleData['ldl'][$i];
+            }
+
+            for($i=-1; $i<=14; $i++) {
+                if($cholPoints >= $i)
+                    $cholPercent = $maleData['chol'][$i];
+            }
+
+        }
+
+        else {
+            $cholPercent = 1;
+            $ldlPercent = 1;
+
+            for($i=-2; $i<=17; $i++) {
+                if($ldlPoints >= $i)
+                    $ldlPercent = $femaleData['ldl'][$i];
+            }
+
+            for($i=-2; $i<=17; $i++) {
+                if($cholPoints >= $i)
+                    $cholPercent = $femaleData['chol'][$i];
+            }
+        }
+
+        $this->risk->setCholPercent($cholPercent);
+        $this->risk->setLdlPercent($ldlPercent);
+    }
+
+    private function calculateAvgCHDPercent() {
+        $age = $this->patient->getAge();
+
+        
+
+    }
+
+    //Calculates the risk of a patient based on smoking risk and returns a Risk object
+    public function smokerRisk() {
 		$isSmoker = $this->patient->getIsSmoker();
 		$smokerRisk = new Risk();
 		
@@ -437,9 +575,6 @@ class PatientRiskCalculator {
 				return 3;
 		} 
 	}
-	
-
-
 
     public function getWarning()
     {
