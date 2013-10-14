@@ -1,16 +1,19 @@
 <?php
 global $view;
-
+$risk = $view->getRisk();
+$patient = $view->getPatient();
+$warning = $view->getWarning();
 ?>
+        Name: <?=$patient->getName(); ?><br/>
 
-Name: <?=$view->getPatient()->getName(); ?> </br>
 <?php
-if(strlen($view->getWarning()) > 0)
-    print($view->getWarning());
+if(strlen($warning) > 0)
+    print($$warning);
 ?>
-LDL Risk: <?=$view->getRisk()->getLdlPercent()?>% </br>
-Cholesterol Risk: <?=$view->getRisk()->getCholPercent()?>% </br>
+LDL Risk: <?=$risk->getLdlPercent()?>%<br/>
+Cholesterol Risk: <?=$risk->getCholPercent()?>%<br/>
 
-Compare to average percentages: High <?=$view->getRisk()->getAvgPercent('high') ?> <br/>
-Mid <?=$view->getRisk()->getAvgPercent('mid') ?> <br/>
-Low <?=$view->getRisk()->getAvgPercent('low') ?>
+Compare to average percentages:<br/>
+High <?=$risk->getAvgPercent('high') ?>%<br/>
+Mid <?=$risk->getAvgPercent('mid') ?>%<br/>
+Low <?=$risk->getAvgPercent('low') ?>%<br/>

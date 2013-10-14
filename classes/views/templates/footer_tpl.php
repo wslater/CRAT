@@ -1,3 +1,4 @@
+            </div> <!--Ends middle span -->
 
         </div><!-- Ends container -->
 
@@ -5,9 +6,4 @@
         <script src="/js/bootstrap.css"></script>
 
     </body>
-
-    <footer>
-
-    </footer>
-
 </html>
