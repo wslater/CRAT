@@ -159,10 +159,119 @@ class PatientRiskCalculator {
     }
 
     private function calculateAvgCHDPercent() {
+        $maleAvgData = array(
+            30 => array(
+                "high"=>3,
+                "mid"=>1,
+                "low"=>2
+            ),
+            35 => array(
+                "high"=>5,
+                "mid"=>4,
+                "low"=>3
+            ),
+            40 => array(
+                "high"=>7,
+                "mid"=>4,
+                "low"=>4
+            ),
+            45 => array(
+                "high"=>11,
+                "mid"=>8,
+                "low"=>8
+            ),
+            50 => array(
+                "high"=>14,
+                "mid"=>10,
+                "low"=>6
+            ),
+            55 => array(
+                "high"=>16,
+                "mid"=>13,
+                "low"=>7
+            ),
+            60 => array(
+                "high"=>21,
+                "mid"=>20,
+                "low"=>9
+            ),
+            65 => array(
+                "high"=>25,
+                "mid"=>22,
+                "low"=>11
+            ),
+            70 => array(
+                "high"=>30,
+                "mid"=>25,
+                "low"=>14
+            )
+        );
+        $femaleAvgData = array(
+            30 => array(
+                "high"=>1,
+                "mid"=>1,
+                "low"=>1
+            ),
+            35 => array(
+                "high"=>1,
+                "mid"=>1,
+                "low"=>1
+            ),
+            40 => array(
+                "high"=>2,
+                "mid"=>1,
+                "low"=>2
+            ),
+            45 => array(
+                "high"=>5,
+                "mid"=>2,
+                "low"=>3
+            ),
+            50 => array(
+                "high"=>8,
+                "mid"=>3,
+                "low"=>5
+            ),
+            55 => array(
+                "high"=>12,
+                "mid"=>7,
+                "low"=>7
+            ),
+            60 => array(
+                "high"=>12,
+                "mid"=>8,
+                "low"=>8
+            ),
+            65 => array(
+                "high"=>13,
+                "mid"=>8,
+                "low"=>8
+            ),
+            70 => array(
+                "high"=>14,
+                "mid"=>11,
+                "low"=>8
+            )
+        );
         $age = $this->patient->getAge();
 
-        
 
+        if ($this->gender == "Male") {
+            for($i=30;$i <= $age ;$i+=5){
+                $avgData['high'] =  $maleAvgData[$i]['high'];
+                $avgData['mid'] =  $maleAvgData[$i]['mid'];
+                $avgData['low'] =  $maleAvgData[$i]['low'];
+            }
+        }
+        else {
+            for($i=30;$i <= $age ;$i+=5){
+                $avgData['high'] =  $femaleAvgData[$i]['high'];
+                $avgData['mid'] =  $femaleAvgData[$i]['mid'];
+                $avgData['low'] =  $femaleAvgData[$i]['low'];
+            }
+        }
+
+        $this->risk->setAvgPercent($avgData);
     }
 
     //Calculates the risk of a patient based on smoking risk and returns a Risk object

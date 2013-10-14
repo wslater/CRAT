@@ -4,27 +4,16 @@
       private $cholRisk;
       private $ldlpercent;
       private $cholpercent;
-      private $avgldlpercent;
-      private $avgcholpercent;
+      private $avgpercent;
 
-      public function setAvgCholPercent($avgcholpercent)
+      public function setAvgPercent($avgpercent)
       {
-          $this->avgcholpercent = $avgcholpercent;
+          $this->avgpercent = $avgpercent;
       }
 
-      public function getAvgCholPercent()
+      public function getAvgPercent($index)
       {
-          return $this->avgcholpercent;
-      }
-
-      public function setAvgLdlPercent($avgldlpercent)
-      {
-          $this->avgldlpercent = $avgldlpercent;
-      }
-
-      public function getAvgLdlPercent()
-      {
-          return $this->avgldlpercent;
+          return $this->avgpercent[$index];
       }
 
       public function setCholPercent($cholpercent)

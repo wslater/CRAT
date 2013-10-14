@@ -10,3 +10,7 @@ if(strlen($view->getWarning()) > 0)
 ?>
 LDL Risk: <?=$view->getRisk()->getLdlPercent()?>% </br>
 Cholesterol Risk: <?=$view->getRisk()->getCholPercent()?>% </br>
+
+Compare to average percentages: High <?=$view->getRisk()->getAvgPercent('high') ?> <br/>
+Mid <?=$view->getRisk()->getAvgPercent('mid') ?> <br/>
+Low <?=$view->getRisk()->getAvgPercent('low') ?>
