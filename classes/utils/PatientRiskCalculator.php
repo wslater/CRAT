@@ -258,16 +258,12 @@ class PatientRiskCalculator {
 
         if ($this->gender == "Male") {
             for($i=30;$i <= $age ;$i+=5){
-                $avgData['high'] =  $maleAvgData[$i]['high'];
-                $avgData['mid'] =  $maleAvgData[$i]['mid'];
-                $avgData['low'] =  $maleAvgData[$i]['low'];
+                $avgData =  $maleAvgData[$i];
             }
         }
         else {
             for($i=30;$i <= $age ;$i+=5){
-                $avgData['high'] =  $femaleAvgData[$i]['high'];
-                $avgData['mid'] =  $femaleAvgData[$i]['mid'];
-                $avgData['low'] =  $femaleAvgData[$i]['low'];
+                $avgData =  $femaleAvgData[$i];
             }
         }
 
